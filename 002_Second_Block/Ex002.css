@@ -1,0 +1,95 @@
+html {
+  background-color: rgba(2, 0, 0, 0.589);
+}
+
+.page {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.858), rgba(0, 0, 0, 0.781)),
+    url(../002_Second_Block/images/Fundodetelamatematica.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 30px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+input {
+  color: rgb(18, 1, 1);
+}
+
+p {
+  color: white;
+}
+
+.buttoncolor {
+  color: black;
+}
+
+.txtresult {
+  color: white;
+  margin: 10px 0 0 0;
+}
+
+.inputlist {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "p1 p2 p3 p4 p5"
+    "i1 i2 i3 i4 i5";
+  margin: 0 0 80px 0;
+}
+
+.p1 {
+  grid-area: p1;
+}
+
+.i1 {
+  grid-area: i1;
+  max-width: 150px;
+}
+
+.p2 {
+  grid-area: p2;
+}
+
+.i2 {
+  grid-area: i2;
+  max-width: 150px;
+}
+
+.p3 {
+  grid-area: p3;
+}
+
+.i3 {
+  grid-area: i3;
+  max-width: 150px;
+}
+
+.p4 {
+  grid-area: p4;
+}
+
+.i4 {
+  grid-area: i4;
+  max-width: 150px;
+}
+
+.p5 {
+  grid-area: p5;
+}
+
+.i5 {
+  grid-area: i5;
+  max-width: 150px;
+}
+
+.inputtext {
+  margin: 0 0 50px 0;
+}

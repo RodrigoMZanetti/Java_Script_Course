@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Ex002style.css" />
+    <title>Smart Operations Calculator</title>
+  </head>
+  <body>
+    <div class="page">
+      <h1>🖩Smart Operations Calculator🖩</h1>
+      <div class="inputlist">
+        <p class="p1">Enter the first number:</p>
+        <input type="number" id="txtnumberone" class="i1" />
+        <p class="p2">Enter the second number:</p>
+        <input type="number" id="txtnumbertwo" class="i2" />
+        <p class="p3">Enter the third number:</p>
+        <input type="number" id="txtnumberthree" class="i3" />
+        <p class="p4">Enter the fourth number:</p>
+        <input type="number" id="txtnumberfour" class="i4" />
+        <p class="p5">Enter the fifty number:</p>
+        <input type="number" id="txtnumberfive" class="i5" />
+      </div>
+      <div class="inputtext">
+        <p>Type 1 to sum all the numbers.</p>
+        <p>Type 2 to subtract all the numbers.</p>
+        <p>Type 3 to sum all the even numbers.</p>
+        <p>Type 4 to sum all the odd numbers.</p>
+        <p>Type 5 to calculate the average of the numbers entered.</p>
+        <p>Type 6 to find out the largest number entered.</p>
+        <p>Type 7 to find out the smallest number entered.</p>
+      </div>
+      <p>Choose an option</p>
+      <input type="number" id="txtfinaloption" />
+      <input
+        type="button"
+        id="txtbutton"
+        value="CHECK"
+        onclick="check()"
+        class="buttoncolor"
+      />
+      <div id="txtresult" class="txtresult"></div>
+      <script src="Ex002.js"></script>
+    </div>
+  </body>
+</html>
